@@ -1,0 +1,281 @@
+ 
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Acceuil{% endblock %}</title>
+ {% block stylesheets %}
+         <link rel="stylesheet"   href="/css/blog.css">
+         <link rel="stylesheet"   href="/bootstrap.min.css">
+         <link rel="stylesheet"   href="/js/jquery-3.4.1.js">
+         <link rel="stylesheet"   href="/js/bootstrap.min.js">
+         <link rel="stylesheet"   href="/js/popper.js">
+		 <link rel="stylesheet"   href="/css/font-awesome.css">
+		 <link rel="stylesheet"   href="/css/bootstrap-theme.css">
+ {% endblock %}
+
+   {% block javascripts %}
+   
+   {% endblock %}
+
+<link href="bootstrap/css/bootstrap.min.css"rel="stylesheet">
+        <script src="bootstrap/js/jquery-3.4.1.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/js/popper.js"></script>
+
+</head>
+
+<body>
+
+
+ {% block body %}
+
+<div class="container5">
+  <div class="row">
+   
+	
+    
+	
+    <div class="col-6">
+
+       <h3 contenteditable data-heading="Frozen" style=" left: 20%;
+ color: transparent;
+ 
+	font-size: 5vw;
+	margin: 0;
+	font-family: 'frozen', serif;
+	font-weight: 700;
+	background: url(/images/8.jpg);
+  	-webkit-background-clip: text;
+	background-size: contain;
+	width: 100%;
+	
+	font-weight: 900;">MyRendez-Vous</h3>
+    </div>
+	
+	
+    <div class="col">
+     <p>TELEPHONE: 33 854 00 00 |<a href="#">Compte </a><p> 
+    </div>
+  </div>
+  <div class="row_2">
+   
+   <nav>
+<ul> 
+<li><form action="/search" id="searchthis" method="get">
+<input id="search" name="q" type="text" placeholder="Que recherhez-vous?" />
+<input id="search-btn" type="submit" value="Rechercher" />
+</form></li>
+</br></br></br></br></br>
+
+<li class="menu-one"> <a href="#"><strong> ACCEUIL</strong> </a> 
+<li class="menu-two"><a href="#"><strong>HOPITAUX</strong></a> </li>
+<li class="menu-three"><a href="{{path('specialiste', {slug: 'SPECIALISTE'})}}"><strong>SPECIALISTE</strong></a></li> 
+<li class="menu-four"><a href="#"><strong>RENDEZ-VOUS</strong></a> </li>
+<li class="menu-five"><a href="{{path('contact', {slug: 'CONTACT'})}}"><strong>CONTACTEZ-NOUS</strong></a></li>
+
+</ul>
+</nav>
+  </div>
+</div>
+
+<div id="home">
+    <div id="carousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="MEDCIN/17.jpg" alt="" height=500px width=100%>
+				
+    <div class="carousel-caption"><h4>POUR PRENDRE SOIN DE VOTRE<br> SANTÉ</h4> </div>
+</div> 
+</div> 
+</div> 
+</div> 
+
+ <div id="about">
+  
+    
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-lg-12 text-center">
+			<br><br><h3><span class="merabi">Bienvenue dans votre site web </span></h3><h3>MyRendez-Vous</h3>
+				
+			<p class="mecoo">Nos médecins spécialistes se soucient de vous et de la santé de votre famille</p>
+			</div>
+		   
+		</div>
+    </div>
+</div>
+
+
+ <div class="row_3">
+ <h3><pre><img src="/images/trouv.PNG">               <img src="/images/date.PNG">                   <img src="/images/conf.PNG">  </pre></h3>
+
+ <div class="container-fluid">
+    
+<div id="parallax2" class="parallax">
+<div class="bg2 parallax-bg"></div>
+<div class="overlay"></div>
+<div class="container">
+<div class="parallax-content visible-lg visible-md hidden-sm hidden-xs">
+<div class="parallax_txt1">BESOIN D'UN MÉDECIN POUR UN VISITE ?</div>
+<div class="parallax_txt2">PRENEZ UN RENDEZ-VOUS</div>
+</div></div></div></div>
+
+ <marquee id="id1" style="background-image: url('/images/i.jpg'); height:180px"><span  onmouseover="getElementById('id1').stop();" onmouseout="getElementById('id1').start();">
+ <img src="/images/1.jpg"  ><img src="2.jpg" ><img src="/images/3.jpg" ><img src="/images/4.jpg" ><img src="/images/5.jpg" ><img src="/images/1.jpg" ><img src="/images/9.jpg" >
+ <img src="/images/8.jpg" ><img src="6.jpg" ><img src="/images/7.jpg" ><img src="/images/4.jpg" ><img src="/images/5.jpg" ><img src="/images/1.jpg" ><img src="/images/9.jpg" >
+ <img src="/images/8.jpg" ><img src="6.jpg" ><img src="/images/7.jpg" > <img src="/images/8.jpg" ><img src="/images/6.jpg" ><img src="/images/7.jpg" >
+ <img src="/images/4.jpg" ><img src="5.jpg" ><img src="/images/1.jpg" ><img src="/images/9.jpg" ><img src="/images/8.jpg" ><img src="/images/6.jpg" ><img src="/images/7.jpg" ></span></marquee>
+
+    
+ </div>
+
+
+
+
+
+
+<script>
+
+h1.addEventListener("input", function() {
+    this.setAttribute("data-heading", this.innerText);
+});
+</script>
+ 
+
+<div class="my" style="background-color:#D0CBCB;">
+<div class="container" >
+  <div class="row" >
+</br></br></br>
+ </div>
+
+ <DIV CLASS="toto" style="position:absolute; margin-top:-20px; margin-left:120px"><IMG SRC="/images/ho.jpg" BORDER=0 WIDTH=50 HEIGHT=50></DIV>
+<DIV CLASS="titi" style="margin-left:110px;"><IMG SRC="/images/6.jpg" BORDER=0 WIDTH=400 HEIGHT=200></DIV>
+
+
+<DIV CLASS="toto" style="position:absolute;  margin-left:612px; margin-top:-220px;"><IMG SRC="/images/med.PNG" BORDER=0 WIDTH=50 HEIGHT=50></DIV>
+<DIV CLASS="titi" style="margin-left:600px; margin-top:-200px;"><IMG SRC="/images/1.jpg" BORDER=0 WIDTH=400 HEIGHT=200></DIV>
+</br></br>
+<DIV CLASS="toto" style="position:absolute; margin-top:-20px; margin-left:120px"><IMG SRC="/images/med.PNG" BORDER=0 WIDTH=50 HEIGHT=50></DIV>
+<DIV CLASS="titi"  style="margin-left:110px;"><IMG SRC="/images/5.jpg" BORDER=0 WIDTH=400 HEIGHT=200></DIV>
+
+<DIV CLASS="toto" style="position:absolute; margin-left:612px; margin-top:-220px;"><IMG SRC="/images/med.PNG" BORDER=0 WIDTH=50 HEIGHT=50></DIV>
+<DIV CLASS="titi" style="margin-left:600px; margin-top:-198px;"><IMG SRC="/images/6.jpg" BORDER=0 WIDTH=400 HEIGHT=200></DIV>
+  
+  
+ 
+</div>
+</br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br>
+
+
+
+<div class="container6">
+ <div class="row">
+    <div class="col-sm" style="margin-left:20px; margin-right:20px;">
+	    
+ <strong>MyCosmo est un site de vente en ligne de produit cosmetique.</br>
+On utilise chaque jour un ou plusieurs produits cosmétiques pour prendre soin de soi et de son apparence.</br>
+Un produit cosmétique est une substance ou préparation destinée à être mise en contact avec les diverses </br>
+parties superficielles du corps humain, telles que la peau, les cheveux, les ongles, les lèvres ou les dents,</br>
+en vue, exclusivement ou principalement, de les nettoyer, de les parfumer, d'en modifier l'aspect, de les</br>
+ protéger, de les maintenir en bon état ou d'en corriger les odeurs.</strong>
+
+	</div>
+	
+    <div class="col-sm">
+	    
+ <strong>MyCosmo est un site de vente en ligne de produit cosmetique.</br>
+On utilise chaque jour un ou plusieurs produits cosmétiques pour prendre soin de soi et de son apparence.</br>
+Un produit cosmétique est une substance ou préparation destinée à être mise en contact avec les diverses </br>
+parties superficielles du corps humain, telles que la peau, les cheveux, les ongles, les lèvres ou les dents,</br>
+en vue, exclusivement ou principalement, de les nettoyer, de les parfumer, d'en modifier l'aspect, de les</br>
+ protéger, de les maintenir en bon état ou d'en corriger les odeurs.</strong>
+
+	</div>
+	
+    <div class="col-sm">
+	    
+ <strong>MyCosmo est un site de vente en ligne de produit cosmetique.</br>
+On utilise chaque jour un ou plusieurs produits cosmétiques pour prendre soin de soi et de son apparence.</br>
+Un produit cosmétique est une substance ou préparation destinée à être mise en contact avec les diverses </br>
+parties superficielles du corps humain, telles que la peau, les cheveux, les ongles, les lèvres ou les dents,</br>
+en vue, exclusivement ou principalement, de les nettoyer, de les parfumer, d'en modifier l'aspect, de les</br>
+ protéger, de les maintenir en bon état ou d'en corriger les odeurs.</strong>
+
+	</div>
+	
+  </div>
+  </div>
+
+
+
+
+
+
+ </br></br></br></br></br>
+ </br></br></br>
+
+
+<!-- Footer -->
+
+	<footer class="footer" style="background-image: url('footer.jpg');>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="t.jpg" data-speed="0.8"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					
+					
+
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar"  style="background-color:#232323 ;">
+			<div class="container">
+				<div class="row">
+					<div class="col"   >
+						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<nav class="footer_nav" style="background-color:#232323 ">
+								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+									<li class="m"> <a href="#"><strong> ACCEUIL</strong> </a> 
+										<li class="m"><a href="#"><strong>HOPITAUX</strong></a> </li>
+										<li class="m"><a href="#"><strong>SPECIALITES</strong></a></li> 
+										<li class="m"><a href="#"><strong>RENDEZ-VOUS</strong></a> </li>
+										<li class="m"><a href="#"><strong>CONTACTER-NOUS</strong></a></li>
+								</ul>
+							</nav>
+
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+{% endblock %}
+    </body>
+</html>
